@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    :root {
+        --card-row-count: 1;
+    }
+
+    .info {
+        font-size: 15px;
+    }
+
+    .info h1 {
+        display: none;
+    }
+
+    :root {
+        --card-row-count: 2;
+    }
+
+    .info p {
+        display: none;
+    }
+
+}
