@@ -123,7 +123,7 @@
     border-radius: 20px;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background: #fff;
+    background: rgb(225, 255, 255);
     color: #000;
     font-size: 14px;
     font-weight: 400;
@@ -133,6 +133,8 @@
 }
 
 .card .info .btn:hover {
+    color:rgb(225, 255, 255); ;
+    background-color: blue;
     box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.5);
 }
 
